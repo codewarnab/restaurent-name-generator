@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import SequentialChain, LLMChain
 import time 
 import os 
-os.environ['OPENAI_API_KEY'] = "sk-"
+# os.environ['OPENAI_API_KEY'] = "sk-"
 llm = OpenAI(temperature=0.7)
 
 def generate_restaurent_name_and_items(cuisine):
